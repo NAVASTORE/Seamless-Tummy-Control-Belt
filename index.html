@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seamless Tummy Control Belt - Solusi Pinggang Ideal | FASHION.ID</title>
+    <meta name="description" content="Dapatkan bentuk tubuh ideal dengan Sabuk Kontrol Perut Seamless kami. Desain premium, elastisitas tinggi, dan nyaman dipakai seharian. Diskon spesial hari ini!">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'soft-blue': '#a7c7e7',
+                        'navy-blue': '#1f3a5f',
+                        'light-gray': '#d3d3d3',
+                        'silver-accent': '#c0c0c0',
+                    },
+                    fontFamily: {
+                        'heading': ['Poppins', 'sans-serif'],
+                        'body': ['Roboto', 'sans-serif']
+                    },
+                    animation: {
+                        'slide-in': 'slideIn 0.5s ease-out forwards',
+                        'fade-in': 'fadeIn 0.5s ease-out forwards',
+                    },
+                    keyframes: {
+                        slideIn: {
+                            '0%': { transform: 'translateX(100%)' },
+                            '100%': { transform: 'translateX(0)' }
+                        },
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        .hero-overlay {
+            background: linear-gradient(90deg, rgba(31,58,95,0.8) 0%, rgba(167,199,231,0.6) 100%);
+        }
+        .promo-badge {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .gallery-item {
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover .feature-icon {
+            transform: translateY(-5px);
+            color: #1f3a5f;
+        }
+        .price-card {
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .price-card:hover {
+            transform: translateY(-10px);
+            border-color: #a7c7e7;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .social-proof {
+            right: 20px;
+            top: 20px;
+            animation: slide-in 0.5s ease-out forwards;
+        }
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        .sticky-cta.active {
+            transform: translateY(0);
+        }
+        .countdown-box {
+            background: rgba(31, 58, 95, 0.8);
+        }
+        .form-container {
+            background: linear-gradient(135deg, rgba(167,199,231,0.2) 0%, rgba(192,192,192,0.1) 100%);
+        }
+    </style>
+</head>
+<body class="font-body bg-white text-gray-800">
+    <!-- Social Proof Container -->
+    <div id="social-proof-container" class="fixed z-50 flex flex-col items-end space-y-3"></div>
+    
+    <!-- Header -->
+    <header class="bg-navy-blue">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="bg-soft-blue w-10 h-10 rounded-full flex items-center justify-center">
+                    <span class="text-navy-blue font-bold text-xl">F</span>
+                </div>
+                <span class="ml-2 text-white font-heading font-bold text-xl">FASHION.ID</span>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#features" class="text-soft-blue hover:text-white transition">Fitur</a>
+                <a href="#gallery" class="text-soft-blue hover:text-white transition">Galeri</a>
+                <a href="#benefits" class="text-soft-blue hover:text-white transition">Manfaat</a>
+                <a href="#pricing" class="text-soft-blue hover:text-white transition">Harga</a>
+                <a href="#testimonials" class="text-soft-blue hover:text-white transition">Testimoni</a>
+            </nav>
+            
+            <div class="hidden md:block">
+                <button class="bg-soft-blue text-navy-blue px-6 py-2 rounded-full font-bold hover:bg-white transition">
+                    Pesan Sekarang
+                </button>
+            </div>
+            
+            <button class="md:hidden text-soft-blue">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen flex items-center" style="background-image: url('https://shopingmally.com/cdn/shop/files/b534152321cb010b2ba56f4b613287be_0bb2711a-e7e1-4419-bd62-6b5c921e0e52.jpg?v=1751875091&width=600');">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-2xl">
+                <div class="promo-badge bg-white text-navy-blue px-6 py-2 rounded-full inline-block mb-4">
+                    <span class="font-bold">DISKON SPESIAL HARI INI!</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-heading font-bold text-white mb-4">
+                    Seamless Tummy Control Belt
+                </h1>
+                <p class="text-xl md:text-2xl text-soft-blue mb-8">
+                    Bentuk Tubuh Ideal Tanpa Rasa Tidak Nyaman
+                </p>
+                <ul class="space-y-2 text-white mb-8">
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-soft-blue mr-2"></i>
+                        <span>Elastisitas tinggi untuk kenyamanan maksimal</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-soft-blue mr-2"></i>
+                        <span>Bahan lembut dan berkualitas premium</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-soft-blue mr-2"></i>
+                        <span>Hasil instan tanpa olahraga berat</span>
+                    </li>
+                </ul>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#order" class="bg-soft-blue text-navy-blue font-bold px-8 py-4 rounded-full text-center hover:bg-white transition transform hover:scale-105">
+                        DAPATKAN DISKON 50% →
+                    </a>
+                    <a href="#features" class="glass-card text-white font-bold px-8 py-4 rounded-full text-center border border-soft-blue hover:bg-navy-blue transition">
+                        LIHAT DETAIL PRODUK
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="py-8 bg-light-gray">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center gap-8">
+                <div class="flex items-center">
+                    <i class="fas fa-shield-alt text-navy-blue text-2xl mr-2"></i>
+                    <span class="font-bold">Garansi 30 Hari</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-truck text-navy-blue text-2xl mr-2"></i>
+                    <span class="font-bold">Gratis Ongkir</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-undo text-navy-blue text-2xl mr-2"></i>
+                    <span class="font-bold">Pengembalian Mudah</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-lock text-navy-blue text-2xl mr-2"></i>
+                    <span class="font-bold">Pembayaran Aman</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-navy-blue mb-4">
+                    Kenyamanan dan Hasil yang Terlihat
+                </h2>
+                <p class="text-lg max-w-2xl mx-auto text-gray-600">
+                    Sabuk pembentuk pinggang premium dengan teknologi terkini untuk hasil maksimal tanpa mengorbankan kenyamanan
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card bg-light-gray p-8 rounded-2xl text-center transition-all">
+                    <div class="feature-icon bg-soft-blue w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tshirt text-white text-3xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-navy-blue mb-3">Bahan Berkualitas Tinggi</h3>
+                    <p class="text-gray-600">Terbuat dari bahan elastis premium yang lembut di kulit dan tahan lama</p>
+                </div>
+                
+                <div class="feature-card bg-light-gray p-8 rounded-2xl text-center transition-all">
+                    <div class="feature-icon bg-soft-blue w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-weight text-white text-3xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-navy-blue mb-3">Kontrol Perut Optimal</h3>
+                    <p class="text-gray-600">Desain khusus yang memberikan dukungan maksimal pada area perut dan pinggang</p>
+                </div>
+                
+                <div class="feature-card bg-light-gray p-8 rounded-2xl text-center transition-all">
+                    <div class="feature-icon bg-soft-blue w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-check text-white text-3xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-navy-blue mb-3">Nyaman Dipakai Seharian</h3>
+                    <p class="text-gray-600">Tipis dan seamless sehingga tidak terlihat saat dipakai di bawah pakaian</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-gradient-to-b from-white to-light-gray">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-navy-blue mb-4">
+                    Lihat Keindahan dalam Setiap Detail
+                </h2>
+                <p class="text-lg max-w-2xl mx-auto text-gray-600">
+                    Desain premium yang memberikan kenyamanan maksimal dan hasil yang memuaskan
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/ys/o/31/7784bd16-b6b8-4ed7-8d4f-110ab9c1b93f.jpg" alt="Seamless Tummy Control Belt - Tampilan Depan" class="w-full h-full object-cover">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/ys/o/31/5d20eff4-0f83-4f98-8dc4-a472b2c4dcc9.jpg" alt="Seamless Tummy Control Belt - Tampilan Samping" class="w-full h-full object-cover">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/ys/o/31/1633bf2a-8e73-486e-9ec0-467d4edca235.jpg" alt="Seamless Tummy Control Belt - Tampilan Belakang" class="w-full h-full object-cover">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://down-cl.img.susercontent.com/file/sg-11134201-7rfhs-m9unvbqkhc3z73.webp" alt="Seamless Tummy Control Belt - Warna Kulit" class="w-full h-full object-cover">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://down-cl.img.susercontent.com/file/sg-11134201-7rfhz-m9unvct4wxuh16.webp" alt="Seamless Tummy Control Belt - Warna Hitam" class="w-full h-full object-cover">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/ys/o/31/5b2fd77f-ed4e-4dd4-bc78-8a7d5c016852.jpg" alt="Seamless Tummy Control Belt - Dipakai" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <img src="https://shopingmally.com/cdn/shop/files/3cd125cc36d41ac49393f9544f20bcab_61b3442f-aa3e-4408-86d6-cbad1cd7c3de.jpg?v=1751875091&width=493" alt="Manfaat Seamless Tummy Control Belt" class="w-full h-auto rounded-2xl shadow-xl">
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-navy-blue mb-6">
+                        Mengapa Ribuan Wanita Memilih Sabuk Kami?
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-soft-blue rounded-full p-3 mr-4">
+                                <i class="fas fa-heart text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-navy-blue">Hasil Instan</h3>
+                                <p class="text-gray-600">Dapatkan bentuk tubuh yang lebih ramping dan proporsional hanya dalam hitungan detik</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-soft-blue rounded-full p-3 mr-4">
+                                <i class="fas fa-leaf text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-navy-blue">Ramah Kulit</h3>
+                                <p class="text-gray-600">Bahan hypoallergenic yang aman untuk semua jenis kulit, bahkan yang sensitif</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-soft-blue rounded-full p-3 mr-4">
+                                <i class="fas fa-sync-alt text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-navy-blue">Multifungsi</h3>
+                                <p class="text-gray-600">Cocok untuk berbagai aktivitas sehari-hari, mulai dari bekerja hingga acara formal</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-soft-blue rounded-full p-3 mr-4">
+                                <i class="fas fa-ruler text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-navy-blue">Ukuran Lengkap</h3>
+                                <p class="text-gray-600">Tersedia dalam berbagai ukuran (M, L, XL, 2XL) untuk semua bentuk tubuh</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#order" class="mt-8 inline-block bg-navy-blue text-white font-bold px-8 py-4 rounded-full hover:bg-soft-blue hover:text-navy-blue transition">
+                        DAPATKAN SEKARANG
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-gradient-to-b from-light-gray to-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-navy-blue mb-4">
+                    Pilihan Paket Terbaik Untuk Anda
+                </h2>
+                <p class="text-lg max-w-2xl mx-auto text-gray-600">
+                    Hemat lebih banyak dengan pilihan paket lengkap
+                </p>
+            </div>
+            
+            <div class="max-w-5xl mx-auto">
+                <div class="countdown-box text-white p-6 rounded-2xl mb-8 text-center">
+                    <p class="text-xl font-bold mb-2">PENAWARAN TERBATAS!</p>
+                    <div class="flex justify-center space-x-4">
+                        <div class="bg-soft-blue rounded-lg py-2 px-4">
+                            <span id="hours" class="text-2xl font-bold">23</span>
+                            <span>Jam</span>
+                        </div>
+                        <div class="bg-soft-blue rounded-lg py-2 px-4">
+                            <span id="minutes" class="text-2xl font-bold">59</span>
+                            <span>Menit</span>
+                        </div>
+                        <div class="bg-soft-blue rounded-lg py-2 px-4">
+                            <span id="seconds" class="text-2xl font-bold">59</span>
+                            <span>Detik</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="price-card bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="font-heading font-bold text-2xl text-navy-blue mb-2">Paket Tunggal</h3>
+                        <p class="text-gray-600 mb-6">Pilih 1 warna (Hitam atau Cream)</p>
+                        
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-soft-blue">Rp 169.500</span>
+                            <span class="ml-4 text-gray-500 line-through">Rp 339.000</span>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>1x Seamless Tummy Control Belt</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Pilihan warna: Hitam atau Cream</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Garansi 30 hari</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Gratis pengiriman</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="#order" class="block text-center bg-soft-blue text-navy-blue font-bold py-4 rounded-full hover:bg-navy-blue hover:text-white transition">
+                            PESAN SATU WARNA
+                        </a>
+                    </div>
+                    
+                    <div class="price-card bg-white p-8 rounded-2xl shadow-lg border-2 border-soft-blue relative">
+                        <div class="absolute top-0 right-0 bg-soft-blue text-navy-blue px-6 py-2 rounded-bl-lg rounded-tr-2xl font-bold">
+                            POPULER
+                        </div>
+                        <h3 class="font-heading font-bold text-2xl text-navy-blue mb-2">Paket Duo</h3>
+                        <p class="text-gray-600 mb-6">Dapatkan 2 warna (Hitam + Cream)</p>
+                        
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-navy-blue">Rp 198.500</span>
+                            <span class="ml-4 text-gray-500 line-through">Rp 398.000</span>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>2x Seamless Tummy Control Belt</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Warna: Hitam dan Cream</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Garansi 30 hari</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Gratis pengiriman</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-soft-blue mr-2"></i>
+                                <span>Gratis tas eksklusif</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="#order" class="block text-center bg-navy-blue text-white font-bold py-4 rounded-full hover:bg-soft-blue hover:text-navy-blue transition">
+                            PESAN DUA WARNA
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-navy-blue mb-4">
+                    Apa Kata Pelanggan Kami?
+                </h2>
+                <p class="text-lg max-w-2xl mx-auto text-gray-600">
+                    Ribuan wanita telah merasakan manfaat Seamless Tummy Control Belt
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-card p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-soft-blue text-navy-blue w-12 h-12 rounded-full flex items-center justify-center font-bold mr-3">A</div>
+                        <div>
+                            <h4 class="font-bold">Anita, 32</h4>
+                            <p class="text-gray-600 text-sm">Bandung</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700">"Setelah melahirkan, perut saya tidak pernah sama lagi. Sabuk ini benar-benar mengubah penampilan saya! Nyaman dipakai seharian dan hasilnya langsung terlihat."</p>
+                </div>
+                
+                <div class="glass-card p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-soft-blue text-navy-blue w-12 h-12 rounded-full flex items-center justify-center font-bold mr-3">D</div>
+                        <div>
+                            <h4 class="font-bold">Dewi, 45</h4>
+                            <p class="text-gray-600 text-sm">Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700">"Saya sudah mencoba banyak produk sejenis, tapi yang ini benar-benar berbeda. Bahannya sangat lembut dan tidak menggembung di bawah pakaian. Worth every penny!"</p>
+                </div>
+                
+                <div class="glass-card p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-soft-blue text-navy-blue w-12 h-12 rounded-full flex items-center justify-center font-bold mr-3">R</div>
+                        <div>
+                            <h4 class="font-bold">Rina, 28</h4>
+                            <p class="text-gray-600 text-sm">Surabaya</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700">"Saya pakai untuk pernikahan saudara. Banyak yang komentar bentuk tubuh saya jadi lebih proporsional. Bahannya adem dan tidak gerah meski dipakai seharian."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order" class="py-16 bg-navy-blue">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="form-container glass-card rounded-3xl p-8">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
+                            Pesan Seamless Tummy Control Belt Sekarang
+                        </h2>
+                        <p class="text-soft-blue text-lg">
+                            Isi formulir berikut untuk mendapatkan diskon spesial
+                        </p>
+                    </div>
+                    
+                    <!-- OrderOnline Embed Code -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="nava" data-product-slug="seamless-tummy-control-belt" data-product-id="68989dca50d22c11690ef53c" id="oo-embed-form-seamless-tummy-control-belt-2740" data-origin="orderonline">
+                            <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta">
+        <div class="bg-navy-blue text-white py-4 px-6 flex flex-col sm:flex-row justify-between items-center">
+            <div>
+                <p class="font-bold text-lg">Seamless Tummy Control Belt</p>
+                <p class="text-soft-blue">Diskon hingga 50% - Penawaran Terbatas!</p>
+            </div>
+            <a href="#order" class="mt-3 sm:mt-0 bg-soft-blue text-navy-blue font-bold px-6 py-3 rounded-full hover:bg-white transition whitespace-nowrap">
+                PESAN SEKARANG
+            </a>
+        </div>
+    </div>
+
+    <!-- OrderOnline Embed Script -->
+    <script>
+        if (typeof xLogError != 'function') {
+            var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+            };
+        }
+        try {
+            if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                    !function(w, d, e, v, id, t, s) {
+                        if (d.getElementById(id)) return;
+                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                        s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                };
+            }
+            if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                    if (w.ooe) return;
+                    n = w.ooe = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
+                    if (!w._ooe) w._ooe = n;
+                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                };
+            }
+            xEmbedInit(window);
+            ooe('setup', 'redirect', 'https://nava.orderonline.id');
+            ooe('init', '5f119cd08dcbdb2737678706', '68989dca50d22c11690ef53c', '68989dca50d22c11690ef53d', 'oo-embed-form-seamless-tummy-control-belt-2740', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":true});
+            if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    t.addEventListener('load', xEmbedScript);
+                    s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+            } else {
+                xEmbedScript();
+            }
+        } catch (e) {
+            xLogError(e);
+            throw e;
+        }
+    </script>
+
+    <!-- Custom Script -->
+    <script>
+        // Social Proof Popup System
+        document.addEventListener('DOMContentLoaded', function() {
+            // Customer data
+            const customerNames = ['Vina', 'Dina', 'Kartika', 'Lestari', 'Putri', 'Maya Sari', 'Rani', 'Permata', 'Lestari F'];
+            const customerCities = ['Jakarta', 'Surabaya', 'Bandung', 'Medan', 'Bekasi', 'Tangerang', 'Depok', 'Semarang'];
+            
+            // Generate random time (1-15 minutes ago)
+            function getRandomTime() {
+                const minutes = Math.floor(Math.random() * 15) + 1;
+                return `${minutes} menit yang lalu`;
+            }
+            
+            // Create a social proof notification
+            function createSocialProof() {
+                const name = customerNames[Math.floor(Math.random() * customerNames.length)];
+                const city = customerCities[Math.floor(Math.random() * customerCities.length)];
+                const time = getRandomTime();
+                
+                const container = document.getElementById('social-proof-container');
+                
+                const popup = document.createElement('div');
+                popup.className = 'social-proof glass-card p-4 rounded-lg shadow-lg w-80 flex items-start transition-all duration-300 transform translate-x-full';
+                popup.innerHTML = `
+                    <div class="bg-soft-blue text-navy-blue w-10 h-10 rounded-full flex items-center justify-center font-bold mr-3 flex-shrink-0">${name.charAt(0)}</div>
+                    <div>
+                        <p class="font-bold text-white">${name} dari ${city}</p>
+                        <p class="text-sm text-soft-blue">baru saja memesan Seamless Tummy Control Belt</p>
+                        <p class="text-xs text-silver-accent mt-1">${time}</p>
+                    </div>
+                `;
+                
+                container.appendChild(popup);
+                
+                // Animate in
+                setTimeout(() => {
+                    popup.classList.remove('translate-x-full');
+                    popup.classList.add('translate-x-0');
+                }, 10);
+                
+                // Auto-hide after 5 seconds
+                let hideTimeout = setTimeout(() => {
+                    popup.style.opacity = '0';
+                    popup.style.transform = 'translateX(100%)';
+                    setTimeout(() => {
+                        popup.remove();
+                    }, 500);
+                }, 5000);
+                
+                // Pause on hover
+                popup.addEventListener('mouseenter', () => {
+                    clearTimeout(hideTimeout);
+                });
+                
+                popup.addEventListener('mouseleave', () => {
+                    hideTimeout = setTimeout(() => {
+                        popup.style.opacity = '0';
+                        popup.style.transform = 'translateX(100%)';
+                        setTimeout(() => {
+                            popup.remove();
+                        }, 500);
+                    }, 5000);
+                });
+            }
+            
+            // Show first popup after 5 seconds
+            setTimeout(createSocialProof, 5000);
+            
+            // Then every 10 seconds
+            setInterval(createSocialProof, 10000);
+            
+            // Countdown timer
+            function updateCountdown() {
+                const hoursElement = document.getElementById('hours');
+                const minutesElement = document.getElementById('minutes');
+                const secondsElement = document.getElementById('seconds');
+                
+                let hours = parseInt(hoursElement.textContent);
+                let minutes = parseInt(minutesElement.textContent);
+                let seconds = parseInt(secondsElement.textContent);
+                
+                seconds--;
+                
+                if (seconds < 0) {
+                    seconds = 59;
+                    minutes--;
+                    
+                    if (minutes < 0) {
+                        minutes = 59;
+                        hours--;
+                        
+                        if (hours < 0) {
+                            hours = 23;
+                        }
+                    }
+                }
+                
+                hoursElement.textContent = hours.toString().padStart(2, '0');
+                minutesElement.textContent = minutes.toString().padStart(2, '0');
+                secondsElement.textContent = seconds.toString().padStart(2, '0');
+            }
+            
+            setInterval(updateCountdown, 1000);
+            
+            // Sticky CTA
+            const stickyCTA = document.querySelector('.sticky-cta');
+            
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 500) {
+                    stickyCTA.classList.add('active');
+                } else {
+                    stickyCTA.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
